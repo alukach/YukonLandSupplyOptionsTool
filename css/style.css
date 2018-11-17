@@ -1,0 +1,223 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  overflow: hidden;
+  font-family: 'Montserrat', "Trebuchet MS", sans-serif;
+}
+
+#map {
+  overflow: hidden;
+  padding: 0;
+}
+
+.Menu {
+  position: absolute;
+  z-index: 999;
+  top: 20px;
+  right: 0;
+}
+
+.slide {
+  border: 2px solid #ccc;
+  width: 400px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.Menu .SlideRight {
+  background-color: #244C5A;
+  border: 2px solid #dddddd;
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+  z-index: 1001;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Menu .MenuItems {
+  border: 1px solid #ffffff;
+  height: 18px;
+  background-color: #244C5A;
+  opacity: 0.95;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 4px 2px 4px 6px;
+}
+
+.Menu .MenuItemsDetails {
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  background-color: #ffffff;
+  opacity: 0.95;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-size: 11px;
+  cursor: default;
+  display: none;
+  margin: 0 3px 3px;
+  padding: 5px;
+}
+
+select,
+input[type="text"] {
+  border: 1px solid gray;
+  background-color: #ffffe0;
+  font-family: "Nunito", sans-serif;
+  font-size: 11px;
+}
+
+img {
+  opacity: 0.9;
+}
+
+#resizable {
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  z-index: 1005;
+  opacity: 0.95;
+  background-color: #add8e6;
+  border: 1px solid #7eabcd;
+  cursor: default;
+  padding: 5px 10px;
+}
+
+#resizable h3 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 20pt;
+  font-weight: 700;
+  margin: 0;
+}
+
+.templatePicker {
+  border: 1px solid #7eabcd;
+  border-radius: 4px 4px 4px 4px;
+  height: 94px;
+  opacity: 0.75;
+  position: absolute;
+  right: 70px;
+  top: 10px;
+  z-index: 100;
+  width: 449px;
+  padding: 3px;
+}
+
+.infowindow .window {
+  position: absolute;
+  color: #000;
+  /* font-family: Nunito, sans-serif; */
+}
+
+.infowindow .window .top .left {
+  overflow: hidden;
+  position: absolute;
+  width: 15px;
+}
+
+.infowindow .window .top .left .sprite {
+  margin-left: -987px;
+  margin-top: 0;
+}
+
+.claro .infowindow .sprite {
+  background-image: url(http://serverapi.arcgisonline.com/jsapi/arcgis/3.2/js/esri/dijit/images/claro.infowindow.png);
+}
+
+.infowindow .sprite {
+  height: 1000px;
+  width: 1000px;
+}
+
+.infowindow .window .top .right {
+  overflow: hidden;
+  padding-right: 5px;
+  position: absolute;
+}
+
+.infowindow .window .top .right .sprite {
+  margin-top: 0;
+  position: absolute;
+}
+
+.infowindow .window .top .right .user {
+  position: absolute;
+  padding: 7px 0 0 10px;
+}
+
+.infowindow .window .top .right .user .titlebar .hide {
+  height: 8px;
+  margin-top: 5px;
+  overflow: hidden;
+  position: absolute;
+  width: 12px;
+}
+
+.infowindow .window .top .right .user .titlebar .hide .sprite {
+  cursor: pointer;
+  display: block;
+  margin-left: -752px;
+  margin-top: -900px;
+}
+
+.infowindow .window .top .right .user .titlebar .title {
+  /* font-family: Nunito, Arial, sans-serif; */
+  font-size: 10pt;
+  font-weight: 700;
+}
+
+.infowindow .window .top .right .user .border {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #000;
+  font-size: 0;
+  height: 0;
+  margin-top: 5px;
+  opacity: 0.25;
+}
+
+.infowindow .window .top .right .user .content {
+  font-weight: 500;
+  font-size: 8pt;
+}
+
+.infowindow .window .top .right .user .layout {
+  overflow: auto;
+  padding-right: 5px;
+  margin: 5px 0 0;
+}
+
+.infowindow .window .bottom .left {
+  height: 10px;
+  overflow: hidden;
+  position: absolute;
+  width: 15px;
+}
+
+.infowindow .window .bottom .left .sprite {
+  margin-left: -987px;
+  margin-top: -990px;
+}
+
+.infowindow .window .bottom .right {
+  height: 10px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.infowindow .window .bottom .right .sprite {
+  margin-top: -990px;
+  position: absolute;
+}
