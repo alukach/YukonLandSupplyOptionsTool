@@ -29,4 +29,4 @@ While the frontend can be run from any machine, the ArcGIS Scripts are intended 
 
 ## Credits
 
-Originally created by [O2 Planning + Design](https://www.o2design.com/); resurrected by [@JoshTW](https://github.com/JoshTW) and [@alukach](https://github.com/alukach) during [HackYG2018](https://yukonstruct.com/hackyg/), with help of Nicole Parry and Kaori Torigai.
+Originally created by [O2 Planning + Design](https://www.o2design.com/); resurrected by [@JoshTW](https://github.com/JoshTW) and [@alukach](https://github.com/alukach) during [HackYG2018](https://yukonstruct.com/hackyg/), with help of [Nicole Parry](mailto:nicole.parry@gov.yk.ca) and [Kaori Torigai](mailto:kaori.torigai@gov.yk.ca).
